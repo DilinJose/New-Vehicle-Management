@@ -1,0 +1,80 @@
+.Dashboard-count-card {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-title-card,
+.card-text-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dashboard-card {
+  width: 15%;
+}
+.navlinks-card a {
+  margin: 10px;
+}
+.navlinks-card,
+.navlinks-card-two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.signup-label {
+  margin: 10px;
+  width: 80%;
+}
+.signup-card-label {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.signup-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.navlinks-card a {
+  border: rgb(192, 192, 192) solid 1px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 5px;
+  padding: 3px;
+  text-decoration: none;
+  color: black;
+}
+.navlinks-card a:hover {
+  border: rgb(253, 252, 252) solid 1px;
+  background-color: rgb(214, 213, 213);
+}
+Form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: column;
+}
+.add-vehicle-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.management-form{
+
+  width: 40%;
+  margin: 10px;
+}
